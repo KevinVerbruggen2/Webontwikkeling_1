@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div id="container">
+
+    <header>
+        <h1>
+            Frituur De Kannibaal
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="bezoekOns.html">Bezoek Ons</a></li>
+            <li class="hier"><a href="#">Bestellen</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="content">
+
+    <div id="bestellen">
+        <h3 id="titel-over-ons">Bestellen?</h3>
+        <h3 id="telefoonnummer">Tel: 016 89 62 50</h3>
+        <p>Weet u al op voorrand dat u lekkere frietjes wilt gaan eten, maar hebt u weinig tijd?
+            Bel ons dan op en geef je bestelling en uur naar keuze door!
+            Zo kunnen we uw bestelling klaarmaken tegen uw gewenste tijd en dan hoeft u niet meer te wachten. Vergeet zeker geen kijkje te nemen in het <a href="menu.html">menu.</a>
+        </p>
+    </div>
+
+    <div id="vragen-over-ons">
+        <h3 id="titel-vragen-over-ons">Nog vragen? </h3>
+
+        <form action="#" novalidate>
+
+            <p class="submit-question"><label for="lastName">Achternaam*</label>
+                <input type="text" id="lastName" >
+            </p>
+            <p class="submit-question"><label for="firstName">Voornaam</label>
+                <input type="text" id="firstName"
+                       name="textToIdentifyInputDataToTheServer">
+            </p>
+            <p class="submit-question">
+                <label for="email">Email*</label>
+                <input type="email" id="email" required>
+            </p>
+            <p class="submit-question"><label for="age">Leeftijd</label>
+                <select id="age" name="age">
+                    <option value="less18">&leq;18</option>
+                    <option value="18-40">18-40</option>
+                    <option value="41-60">41-60</option>
+                    <option value="more60">&geq;61</option>
+                </select>
+            </p>
+
+            <p class="submit-question"><label for="textarea">Vraag</label>
+                <textarea id="textarea" placeholder="Schrijf hier je suggestie "></textarea>
+            </p>
+
+            <p class="submit-question"><input type="submit" value="Verzend"></p>
+
+        </form>
+    </div>
+
+
+</div>
+</body>
+</html>
